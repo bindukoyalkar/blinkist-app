@@ -1,6 +1,7 @@
 import React from 'react';
 import BookDetail from '../BookDetail'
 import {render,screen } from '@testing-library/react';
+import "@testing-library/jest-dom"
 
 const mockedFuntion = jest.fn(); 
 it('beyond Entrepreneurship book detail page', async()=>{

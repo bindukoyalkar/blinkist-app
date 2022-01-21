@@ -1,6 +1,7 @@
 import React from 'react';
 import SwitchTab from '../SwitchTab'
 import {fireEvent, render,screen } from '@testing-library/react';
+import "@testing-library/jest-dom"
 
 it('check beyond Entrepreneurship functionality', async()=>{
     render(<SwitchTab searchTerm=''/>);

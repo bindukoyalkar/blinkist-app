@@ -1,5 +1,7 @@
+import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import SearchBar from "../SearchBar"
+import "@testing-library/jest-dom"
 
 const mockedFuntion = jest.fn(); 
 

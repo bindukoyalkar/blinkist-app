@@ -1,4 +1,5 @@
 import React from 'react';
+import "@testing-library/jest-dom"
 import MyTabs from '../MyTabs';
 import {render,screen } from '@testing-library/react';
 

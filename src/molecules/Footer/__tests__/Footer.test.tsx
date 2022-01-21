@@ -1,4 +1,5 @@
 import React from 'react';
+import "@testing-library/jest-dom"
 import Footer from '../Footer';
 import {render,screen } from '@testing-library/react';
 

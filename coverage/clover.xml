@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642769926516" clover="3.2.0">
-  <project timestamp="1642769926516" name="All files">
+<coverage generated="1642772877534" clover="3.2.0">
+  <project timestamp="1642772877534" name="All files">
     <metrics statements="133" coveredstatements="102" conditionals="83" coveredconditionals="65" methods="58" coveredmethods="39" elements="274" coveredelements="206" complexity="0" loc="133" ncloc="133" packages="15" files="16" classes="16"/>
     <package name="atoms.Icons">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -15,7 +15,7 @@
       <file name="Image.tsx" path="/home/binduk/REACT/blinkist-react/src/atoms/Image/Image.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="9" type="stmt"/>
-        <line num="10" count="34" type="stmt"/>
+        <line num="10" count="35" type="stmt"/>
       </file>
     </package>
     <package name="atoms.User">
@@ -96,29 +96,29 @@
       <metrics statements="26" coveredstatements="8" conditionals="25" coveredconditionals="14" methods="14" coveredmethods="2"/>
       <file name="MyCard.tsx" path="/home/binduk/REACT/blinkist-react/src/organisms/MyCard/MyCard.tsx">
         <metrics statements="26" coveredstatements="8" conditionals="25" coveredconditionals="14" methods="14" coveredmethods="2"/>
-        <line num="13" count="6" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
         <line num="55" count="5" type="stmt"/>
         <line num="67" count="5" type="stmt"/>
-        <line num="68" count="26" type="stmt"/>
-        <line num="69" count="26" type="stmt"/>
+        <line num="68" count="27" type="stmt"/>
+        <line num="69" count="27" type="stmt"/>
         <line num="70" count="0" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
         <line num="72" count="0" type="cond" truecount="0" falsecount="5"/>
         <line num="73" count="0" type="stmt"/>
         <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="78" count="26" type="stmt"/>
+        <line num="78" count="27" type="stmt"/>
         <line num="79" count="0" type="stmt"/>
         <line num="80" count="0" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
         <line num="82" count="0" type="stmt"/>
         <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="86" count="26" type="stmt"/>
+        <line num="86" count="27" type="stmt"/>
         <line num="87" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
         <line num="89" count="0" type="stmt"/>
         <line num="90" count="0" type="stmt"/>
         <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="94" count="26" type="stmt"/>
+        <line num="94" count="27" type="stmt"/>
         <line num="126" count="0" type="stmt"/>
         <line num="141" count="0" type="stmt"/>
         <line num="155" count="0" type="stmt"/>
@@ -197,11 +197,11 @@
         <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="60" count="1" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
       </file>
     </package>
     <package name="utils.CurrentBooks">

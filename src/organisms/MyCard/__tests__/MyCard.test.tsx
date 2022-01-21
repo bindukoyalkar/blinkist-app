@@ -41,3 +41,23 @@ it('render being boss finished card', async()=>{
     const button=screen.getByRole('button')
     expect(button).toHaveTextContent('Read again')
 });
+
+it('render Dropshipping currently reading card', async()=>{
+    
+    render(<MyCard progressBar='half' button='Finished'
+    id={9} key={9} src="9.png" name="Dropshipping"
+    author="James Moore" duration="12"/>);
+
+    const image= screen.getByRole('img')
+    expect(image).toHaveAttribute('src','9.png')
+    
+    const nameOfBook = screen.getByText(/Dropshipping/i);
+    expect(nameOfBook).toBeInTheDocument()
+    
+    const clock=screen.getByTestId('AccessTimeIcon')
+    fireEvent.click(clock)
+    expect(clock).toBeVisible()
+
+    const button=screen.getByRole('button')
+    expect(button).toHaveTextContent('Finished')
+});

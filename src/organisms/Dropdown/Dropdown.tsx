@@ -126,8 +126,8 @@ const Dropdown=(props:Props)=>{
       val===0 && props.setSearchTerm("")
     }
 
-    const nextPage=(e: React.MouseEvent<HTMLSpanElement, MouseEvent>,value: number)=>{
-        props.changeState(value)
+    const nextPage=(e: React.MouseEvent<HTMLSpanElement, MouseEvent>,pageValue: number)=>{
+        props.changeState(pageValue)
         value===0 ? setValue(1): setValue(0)
     }
     const toMyLibrary=(e:React.MouseEvent<HTMLSpanElement, MouseEvent>)=>{

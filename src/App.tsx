@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { makeStyles } from '@mui/styles';
 import Footer from './molecules/Footer/Footer';
 import SwitchTab from './organisms/SwitchTab/SwitchTab';
 import Dropdown from './organisms/Dropdown/Dropdown';
@@ -8,12 +7,7 @@ import Banner from './molecules/Banner/Banner';
 import BookDetail from './utils/BookDetail/BookDetail';
 import Heading from './molecules/Heading/Heading';
 
-const useStyles = makeStyles(theme => ({
-
-})); 
-
 function App(){
-  const classes=useStyles();
   const [page,setPage]=useState(1)
   const [searchTerm,setSearchTerm]= useState('')
   const changePage=(val: number)=>{

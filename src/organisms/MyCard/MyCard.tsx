@@ -78,15 +78,15 @@ const MyCard=(props:Props)=> {
     const toRepeat=(e: React.MouseEvent<HTMLButtonElement, MouseEvent>,id:number)=>{
       const book=CLOSEDBOOK.filter((book: { id: number; }) => book.id=== id)
       OPENBOOK.push(...book)
-      const index=CLOSEDBOOK.findIndex((book: { id: number; }) => book.id=== id);
+      const index=CLOSEDBOOK.findIndex((eachBook: { id: number; }) => eachBook.id=== id);
       CLOSEDBOOK.splice(index,1)
       props.changeTab&& props.changeTab(0)
     }
 
     const toFinish=(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, nameOfBook:string)=>{
-      const book=OPENBOOK.filter((book: { name: string; })=> book.name=== nameOfBook)
+      const book=OPENBOOK.filter((thisBook: { name: string; })=> thisBook.name=== nameOfBook)
       CLOSEDBOOK.push(...book)
-      const index=OPENBOOK.findIndex((book: { name: string; }) => book.name=== nameOfBook);
+      const index=OPENBOOK.findIndex((myBook: { name: string; }) => myBook.name=== nameOfBook);
       OPENBOOK.splice(index,1)
       props.changeTab&& props.changeTab(1)
     }

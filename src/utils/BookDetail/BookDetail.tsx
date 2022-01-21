@@ -52,7 +52,6 @@ const useStyles = makeStyles((theme) => ({
 const BookDetail=(props:Props)=> {
     const classes= useStyles();
     const submit=(e:React.MouseEvent<HTMLButtonElement, MouseEvent>, name: string, val:number)=>{
-            //const filtered=OPENBOOK.filter((book: { name: string; }) => name!== book.name )
             CLOSEDBOOK.push({'id':2,'src':"beyondEntrepreneur.png",'name':"Beyond Entrepreneurship", 'author':"Jim Collins & Bill Lazier", 'duration':"13"})
             OPENBOOK.splice(9,2);
             props.changeState(val);

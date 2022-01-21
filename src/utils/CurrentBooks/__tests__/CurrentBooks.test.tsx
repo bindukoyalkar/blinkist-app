@@ -1,6 +1,7 @@
 import React from 'react';
 import CurrentBooks from '../CurrentBooks'
 import {render,screen } from '@testing-library/react';
+import "@testing-library/jest-dom"
 
 const mockedFuntion = jest.fn(); 
 it('testing my library currently reading books', async()=>{

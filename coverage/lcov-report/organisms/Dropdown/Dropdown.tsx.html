@@ -431,26 +431,7 @@
 <a name='L366'></a><a href='#L366'>366</a>
 <a name='L367'></a><a href='#L367'>367</a>
 <a name='L368'></a><a href='#L368'>368</a>
-<a name='L369'></a><a href='#L369'>369</a>
-<a name='L370'></a><a href='#L370'>370</a>
-<a name='L371'></a><a href='#L371'>371</a>
-<a name='L372'></a><a href='#L372'>372</a>
-<a name='L373'></a><a href='#L373'>373</a>
-<a name='L374'></a><a href='#L374'>374</a>
-<a name='L375'></a><a href='#L375'>375</a>
-<a name='L376'></a><a href='#L376'>376</a>
-<a name='L377'></a><a href='#L377'>377</a>
-<a name='L378'></a><a href='#L378'>378</a>
-<a name='L379'></a><a href='#L379'>379</a>
-<a name='L380'></a><a href='#L380'>380</a>
-<a name='L381'></a><a href='#L381'>381</a>
-<a name='L382'></a><a href='#L382'>382</a>
-<a name='L383'></a><a href='#L383'>383</a>
-<a name='L384'></a><a href='#L384'>384</a>
-<a name='L385'></a><a href='#L385'>385</a>
-<a name='L386'></a><a href='#L386'>386</a>
-<a name='L387'></a><a href='#L387'>387</a>
-<a name='L388'></a><a href='#L388'>388</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L369'></a><a href='#L369'>369</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -573,11 +554,9 @@
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">5x</span>
@@ -622,10 +601,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -638,19 +613,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -959,12 +921,10 @@ const Dropdown=(props:Props)=&gt;{
     const classes=useStyles();
     const expandExplore=(e:React.MouseEvent&lt;SVGSVGElement, MouseEvent&gt;| React.MouseEvent&lt;HTMLSpanElement, MouseEvent&gt;)=&gt;{
         value===0 ? setValue(1): setValue(0)
-        //console.log(value)
         }
     const expandSearch=(e:React.MouseEvent&lt;SVGSVGElement, MouseEvent&gt;, val:number)=&gt;{
       setSearch(val)
       val===0 &amp;&amp; props.setSearchTerm("")
-      //console.log("search value is: "+search)
     }
 &nbsp;
     const nextPage=<span class="fstat-no" title="function not covered" >(e</span>: React.MouseEvent&lt;HTMLSpanElement, MouseEvent&gt;,value: number)=&gt;{
@@ -1001,12 +961,8 @@ const Dropdown=(props:Props)=&gt;{
                 &lt;/Grid&gt;
 &nbsp;
                 &lt;Grid item md={0.25}&gt;
-                { value===0 &amp;&amp; &lt;KeyboardArrowDownIcon /* style={{ color: 'black',
-                position: 'absolute',
-                left:'31.69%', top:'30%'}} */ className={classes.arrowUp} /* onClick={(e)=&gt;expandExplore(e)} *//&gt;}
-             { value===1 &amp;&amp; &lt;KeyboardArrowUpOutlinedIcon /* style={{ color: 'black',
-                position: 'absolute',
-                left:'31.69%', top:'30%'}} */ className={classes.arrowUp} /* onClick={(e)=&gt;expandExplore(e)} *//&gt;}
+                { value===0 &amp;&amp; &lt;KeyboardArrowDownIcon className={classes.arrowUp} /&gt;}
+             { value===1 &amp;&amp; &lt;KeyboardArrowUpOutlinedIcon  className={classes.arrowUp} /&gt;}
                 &lt;/Grid&gt;
 &nbsp;
                 &lt;Grid item md={0.25}&gt;
@@ -1060,19 +1016,6 @@ const Dropdown=(props:Props)=&gt;{
             &lt;Typography className={classes.category1} variant='body1'&gt;Explore by category&lt;/Typography&gt;
             &lt;ul className={classes.ul}&gt;
                 &lt;li key={1}&gt;
-                    {/* &lt;Button variant='text' sx={{':hover': {color: '#0365F2',},}}
-                    style={{textTransform:'none',fontWeight:'400',
-                    fontSize:'16px',
-                    lineHeight:'24px',}} startIcon={&lt;AddAlertOutlinedIcon/&gt;}&gt;Entrepreneurship&lt;/Button&gt; */}
-                    {/* &lt;Typography 
-                    sx={{
-                        ':hover': {
-                          color: '#0365F2',
-                        },
-                      }}
-                onClick={(e)=&gt;nextPage(e,2)}    variant='body2'&gt;&lt;Icons&gt;&lt;AddAlertOutlinedIcon 
-                sx={{ '&amp;:hover': { color: '#0365F2' } }}
-                /&gt;&lt;/Icons&gt;Entrepreneurship&lt;/Typography&gt; */}
                 &lt;Button variant="text" sx={{
                         ':hover': {
                           color: 'secondary.main',
@@ -1231,7 +1174,7 @@ export default Dropdown;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu Jan 20 2022 12:12:50 GMT+0530 (India Standard Time)
+                at Fri Jan 21 2022 18:28:46 GMT+0530 (India Standard Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

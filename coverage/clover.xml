@@ -1,215 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642766320298" clover="3.2.0">
-  <project timestamp="1642766320298" name="All files">
-    <metrics statements="142" coveredstatements="74" conditionals="91" coveredconditionals="28" methods="61" coveredmethods="21" elements="294" coveredelements="123" complexity="0" loc="142" ncloc="142" packages="16" files="17" classes="17"/>
-    <package name="src">
-      <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="5" methods="3" coveredmethods="2"/>
-      <file name="App.tsx" path="/home/binduk/REACT/blinkist-react/src/App.tsx">
-        <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="5" methods="3" coveredmethods="2"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.atoms.Icons">
+<coverage generated="1642769926516" clover="3.2.0">
+  <project timestamp="1642769926516" name="All files">
+    <metrics statements="133" coveredstatements="102" conditionals="83" coveredconditionals="65" methods="58" coveredmethods="39" elements="274" coveredelements="206" complexity="0" loc="133" ncloc="133" packages="15" files="16" classes="16"/>
+    <package name="atoms.Icons">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Icons.tsx" path="/home/binduk/REACT/blinkist-react/src/atoms/Icons/Icons.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="src.atoms.Image">
+    <package name="atoms.Image">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Image.tsx" path="/home/binduk/REACT/blinkist-react/src/atoms/Image/Image.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="10" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="10" count="34" type="stmt"/>
       </file>
     </package>
-    <package name="src.atoms.User">
+    <package name="atoms.User">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="User.tsx" path="/home/binduk/REACT/blinkist-react/src/atoms/User/User.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="src.molecules.Banner">
+    <package name="molecules.Banner">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="Banner.tsx" path="/home/binduk/REACT/blinkist-react/src/molecules/Banner/Banner.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.molecules.Footer">
+    <package name="molecules.Footer">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="Footer.tsx" path="/home/binduk/REACT/blinkist-react/src/molecules/Footer/Footer.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.molecules.Heading">
+    <package name="molecules.Heading">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="Heading.tsx" path="/home/binduk/REACT/blinkist-react/src/molecules/Heading/Heading.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.molecules.MyTabs">
+    <package name="molecules.MyTabs">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="MyTabs.tsx" path="/home/binduk/REACT/blinkist-react/src/molecules/MyTabs/MyTabs.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.organisms.Dropdown">
-      <metrics statements="23" coveredstatements="11" conditionals="20" coveredconditionals="10" methods="12" coveredmethods="2"/>
+    <package name="organisms.Dropdown">
+      <metrics statements="23" coveredstatements="18" conditionals="20" coveredconditionals="18" methods="12" coveredmethods="8"/>
       <file name="Dropdown.tsx" path="/home/binduk/REACT/blinkist-react/src/organisms/Dropdown/Dropdown.tsx">
-        <metrics statements="23" coveredstatements="11" conditionals="20" coveredconditionals="10" methods="12" coveredmethods="2"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="94" count="2" type="stmt"/>
-        <line num="116" count="2" type="stmt"/>
-        <line num="117" count="1" type="stmt"/>
-        <line num="118" count="1" type="stmt"/>
-        <line num="120" count="1" type="stmt"/>
-        <line num="121" count="1" type="stmt"/>
-        <line num="122" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="124" count="1" type="stmt"/>
-        <line num="125" count="0" type="stmt"/>
-        <line num="126" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="129" count="1" type="stmt"/>
+        <metrics statements="23" coveredstatements="18" conditionals="20" coveredconditionals="18" methods="12" coveredmethods="8"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="117" count="5" type="stmt"/>
+        <line num="118" count="5" type="stmt"/>
+        <line num="120" count="5" type="stmt"/>
+        <line num="121" count="5" type="stmt"/>
+        <line num="122" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="124" count="5" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+        <line num="126" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="129" count="5" type="stmt"/>
         <line num="130" count="0" type="stmt"/>
         <line num="131" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="133" count="1" type="stmt"/>
+        <line num="133" count="5" type="stmt"/>
         <line num="134" count="0" type="stmt"/>
-        <line num="137" count="1" type="stmt"/>
-        <line num="149" count="0" type="stmt"/>
-        <line num="158" count="0" type="stmt"/>
+        <line num="137" count="5" type="stmt"/>
+        <line num="149" count="1" type="stmt"/>
+        <line num="158" count="2" type="stmt"/>
         <line num="171" count="0" type="stmt"/>
-        <line num="177" count="0" type="stmt"/>
-        <line num="182" count="0" type="stmt"/>
+        <line num="177" count="1" type="stmt"/>
+        <line num="182" count="1" type="stmt"/>
         <line num="222" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.organisms.MyCard">
-      <metrics statements="26" coveredstatements="8" conditionals="25" coveredconditionals="10" methods="14" coveredmethods="2"/>
+    <package name="organisms.MyCard">
+      <metrics statements="26" coveredstatements="8" conditionals="25" coveredconditionals="14" methods="14" coveredmethods="2"/>
       <file name="MyCard.tsx" path="/home/binduk/REACT/blinkist-react/src/organisms/MyCard/MyCard.tsx">
-        <metrics statements="26" coveredstatements="8" conditionals="25" coveredconditionals="10" methods="14" coveredmethods="2"/>
+        <metrics statements="26" coveredstatements="8" conditionals="25" coveredconditionals="14" methods="14" coveredmethods="2"/>
         <line num="13" count="6" type="stmt"/>
-        <line num="55" count="6" type="stmt"/>
-        <line num="67" count="6" type="stmt"/>
-        <line num="68" count="2" type="stmt"/>
-        <line num="69" count="2" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="67" count="5" type="stmt"/>
+        <line num="68" count="26" type="stmt"/>
+        <line num="69" count="26" type="stmt"/>
         <line num="70" count="0" type="stmt"/>
         <line num="71" count="0" type="stmt"/>
         <line num="72" count="0" type="cond" truecount="0" falsecount="5"/>
         <line num="73" count="0" type="stmt"/>
         <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="78" count="2" type="stmt"/>
+        <line num="78" count="26" type="stmt"/>
         <line num="79" count="0" type="stmt"/>
         <line num="80" count="0" type="stmt"/>
         <line num="81" count="0" type="stmt"/>
         <line num="82" count="0" type="stmt"/>
         <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="86" count="2" type="stmt"/>
+        <line num="86" count="26" type="stmt"/>
         <line num="87" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
         <line num="89" count="0" type="stmt"/>
         <line num="90" count="0" type="stmt"/>
         <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="94" count="2" type="stmt"/>
+        <line num="94" count="26" type="stmt"/>
         <line num="126" count="0" type="stmt"/>
         <line num="141" count="0" type="stmt"/>
         <line num="155" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.organisms.SearchBar">
-      <metrics statements="31" coveredstatements="12" conditionals="22" coveredconditionals="0" methods="9" coveredmethods="0"/>
+    <package name="organisms.SearchBar">
+      <metrics statements="31" coveredstatements="28" conditionals="22" coveredconditionals="19" methods="9" coveredmethods="9"/>
       <file name="SearchBar.tsx" path="/home/binduk/REACT/blinkist-react/src/organisms/SearchBar/SearchBar.tsx">
-        <metrics statements="31" coveredstatements="12" conditionals="22" coveredconditionals="0" methods="9" coveredmethods="0"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
-        <line num="48" count="2" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
-        <line num="53" count="2" type="stmt"/>
-        <line num="55" count="2" type="stmt"/>
-        <line num="59" count="2" type="stmt"/>
-        <line num="60" count="2" type="stmt"/>
-        <line num="62" count="2" type="stmt"/>
-        <line num="63" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="87" count="0" type="cond" truecount="0" falsecount="4"/>
+        <metrics statements="31" coveredstatements="28" conditionals="22" coveredconditionals="19" methods="9" coveredmethods="9"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="85" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="6" type="stmt"/>
+        <line num="87" count="6" type="cond" truecount="3" falsecount="1"/>
         <line num="88" count="0" type="stmt"/>
-        <line num="90" count="0" type="stmt"/>
-        <line num="105" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="106" count="0" type="stmt"/>
-        <line num="107" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="90" count="6" type="stmt"/>
+        <line num="105" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="3" type="stmt"/>
+        <line num="107" count="3" type="cond" truecount="3" falsecount="1"/>
         <line num="108" count="0" type="stmt"/>
-        <line num="109" count="0" type="stmt"/>
-        <line num="120" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="121" count="0" type="stmt"/>
-        <line num="122" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="109" count="3" type="stmt"/>
+        <line num="120" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="122" count="3" type="cond" truecount="3" falsecount="1"/>
         <line num="123" count="0" type="stmt"/>
-        <line num="124" count="0" type="stmt"/>
+        <line num="124" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="src.organisms.SwitchTab">
-      <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="1"/>
+    <package name="organisms.SwitchTab">
+      <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
       <file name="SwitchTab.tsx" path="/home/binduk/REACT/blinkist-react/src/organisms/SwitchTab/SwitchTab.tsx">
-        <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
+        <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.utils">
+    <package name="utils">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="CLOSEDBOOK.tsx" path="/home/binduk/REACT/blinkist-react/src/utils/CLOSEDBOOK.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="7" type="stmt"/>
-        <line num="2" count="7" type="stmt"/>
-        <line num="3" count="7" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
       </file>
       <file name="OPENBOOK.tsx" path="/home/binduk/REACT/blinkist-react/src/utils/OPENBOOK.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="7" type="stmt"/>
-        <line num="37" count="7" type="stmt"/>
-        <line num="38" count="7" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="src.utils.BookDetail">
+    <package name="utils.BookDetail">
       <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
       <file name="BookDetail.tsx" path="/home/binduk/REACT/blinkist-react/src/utils/BookDetail/BookDetail.tsx">
         <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
@@ -219,28 +204,28 @@
         <line num="71" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="src.utils.CurrentBooks">
-      <metrics statements="6" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="1"/>
+    <package name="utils.CurrentBooks">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <file name="CurrentBooks.tsx" path="/home/binduk/REACT/blinkist-react/src/utils/CurrentBooks/CurrentBooks.tsx">
-        <metrics statements="6" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="19" count="9" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="24" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="26" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
       </file>
     </package>
-    <package name="src.utils.FinishedBooks">
-      <metrics statements="6" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="1"/>
+    <package name="utils.FinishedBooks">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="FinishedBooks.tsx" path="/home/binduk/REACT/blinkist-react/src/utils/FinishedBooks/FinishedBooks.tsx">
-        <metrics statements="6" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
       </file>
     </package>
   </project>

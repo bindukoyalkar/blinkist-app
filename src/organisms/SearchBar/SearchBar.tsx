@@ -77,14 +77,6 @@ const SearchBar=(props:Props)=> {
               ),
             }}/>
         </ThemeProvider>
-
-       { function condition(val:any){
-  if(searchTerm === "")
-  return val 
-else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
-  return val
-}
-}}
    
 <Container   style={{paddingLeft:"7%",paddingRight:"7%"}}>
 <Typography className={classes.sideHeading} variant='h6'>Trending blinks</Typography>

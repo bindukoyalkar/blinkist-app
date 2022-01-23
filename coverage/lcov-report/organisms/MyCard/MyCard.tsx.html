@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">27.27% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/33</span>
+                <span class='fraction'>33/33</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">56% </span>
+                <span class="strong">84% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>14/25</span>
+                <span class='fraction'>21/25</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">14.28% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/14</span>
+                <span class='fraction'>14/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">30.76% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/26</span>
+                <span class='fraction'>26/26</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -303,28 +303,28 @@
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">27x</span>
 <span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">27x</span>
@@ -359,7 +359,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -374,7 +374,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -388,7 +388,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -472,29 +472,29 @@ const innerTheme = createTheme({
 });
 const MyCard=(props:Props)=&gt; {
     const classes=useStyles();
-    const nextPage=<span class="fstat-no" title="function not covered" >(e</span>: React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;,val:number )=&gt;{
-      const foundInCurrentlyReading = <span class="cstat-no" title="statement not covered" >OPENBOOK.some(<span class="fstat-no" title="function not covered" >(o</span>bj: { name: string; }) =&gt; <span class="cstat-no" title="statement not covered" >obj.name === 'Beyond Entrepreneurship')</span>;</span>
-      const foundInFinishedReading = <span class="cstat-no" title="statement not covered" >CLOSEDBOOK.some(<span class="fstat-no" title="function not covered" >(o</span>bj: { name: string; }) =&gt; <span class="cstat-no" title="statement not covered" >obj.name === 'Beyond Entrepreneurship')</span>;</span>
-<span class="cstat-no" title="statement not covered" >      if(props.name=== 'Beyond Entrepreneurship' &amp;&amp; !foundInCurrentlyReading &amp;&amp; !foundInFinishedReading){</span>
-<span class="cstat-no" title="statement not covered" >      OPENBOOK.push({'id':2,'src':"beyondEntrepreneur.png",'name':"Beyond Entrepreneurship", 'author':"Jim Collins &amp; Bill Lazier", 'duration':"13"})</span>
-<span class="cstat-no" title="statement not covered" >      props.changeState &amp;&amp; props.changeState(val)</span>
+    const nextPage=(e: React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;,val:number )=&gt;{
+      const foundInCurrentlyReading = OPENBOOK.some((obj: { name: string; }) =&gt; obj.name === 'Beyond Entrepreneurship');
+      const foundInFinishedReading = CLOSEDBOOK.some((obj: { name: string; }) =&gt; obj.name === 'Beyond Entrepreneurship');
+      if(props.name=== 'Beyond Entrepreneurship' &amp;&amp; !foundInCurrentlyReading &amp;&amp; !foundInFinishedReading){
+      OPENBOOK.push({'id':2,'src':"beyondEntrepreneur.png",'name':"Beyond Entrepreneurship", 'author':"Jim Collins &amp; Bill Lazier", 'duration':"13"})
+      props.changeState &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >props.changeState(val)</span>
       }
     }
 &nbsp;
-    const toRepeat=<span class="fstat-no" title="function not covered" >(e</span>: React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;,id:number)=&gt;{
-      const books=<span class="cstat-no" title="statement not covered" >CLOSEDBOOK.filter(<span class="fstat-no" title="function not covered" >(b</span>ook: { id: number; }) =&gt; <span class="cstat-no" title="statement not covered" >book.id=== id)</span></span>
-<span class="cstat-no" title="statement not covered" >      OPENBOOK.push(...books)</span>
-      const index=<span class="cstat-no" title="statement not covered" >CLOSEDBOOK.findIndex(<span class="fstat-no" title="function not covered" >(e</span>achBook: { id: number; }) =&gt; <span class="cstat-no" title="statement not covered" >eachBook.id=== id)</span>;</span>
-<span class="cstat-no" title="statement not covered" >      CLOSEDBOOK.splice(index,1)</span>
-<span class="cstat-no" title="statement not covered" >      props.changeTab&amp;&amp; props.changeTab(0)</span>
+    const toRepeat=(e: React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;,id:number)=&gt;{
+      const books=CLOSEDBOOK.filter((book: { id: number; }) =&gt; book.id=== id)
+      OPENBOOK.push(...books)
+      const index=CLOSEDBOOK.findIndex((eachBook: { id: number; }) =&gt; eachBook.id=== id);
+      CLOSEDBOOK.splice(index,1)
+      props.changeTab&amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >props.changeTab(0)</span>
     }
 &nbsp;
-    const toFinish=<span class="fstat-no" title="function not covered" >(e</span>: React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;, nameOfBook:string)=&gt;{
-      const book=<span class="cstat-no" title="statement not covered" >OPENBOOK.filter(<span class="fstat-no" title="function not covered" >(t</span>hisBook: { name: string; })=&gt; <span class="cstat-no" title="statement not covered" >thisBook.name=== nameOfBook)</span></span>
-<span class="cstat-no" title="statement not covered" >      CLOSEDBOOK.push(...book)</span>
-      const index=<span class="cstat-no" title="statement not covered" >OPENBOOK.findIndex(<span class="fstat-no" title="function not covered" >(m</span>yBook: { name: string; }) =&gt; <span class="cstat-no" title="statement not covered" >myBook.name=== nameOfBook)</span>;</span>
-<span class="cstat-no" title="statement not covered" >      OPENBOOK.splice(index,1)</span>
-<span class="cstat-no" title="statement not covered" >      props.changeTab&amp;&amp; props.changeTab(1)</span>
+    const toFinish=(e: React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;, nameOfBook:string)=&gt;{
+      const book=OPENBOOK.filter((thisBook: { name: string; })=&gt; thisBook.name=== nameOfBook)
+      CLOSEDBOOK.push(...book)
+      const index=OPENBOOK.findIndex((myBook: { name: string; }) =&gt; myBook.name=== nameOfBook);
+      OPENBOOK.splice(index,1)
+      props.changeTab&amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >props.changeTab(1)</span>
     }
 &nbsp;
     return (
@@ -529,7 +529,7 @@ const MyCard=(props:Props)=&gt; {
       backgroundColor: 'primary.main', 
       color: '#FFFFFF',
     },
-  }} onClick={<span class="fstat-no" title="function not covered" >(e</span>)=&gt;<span class="cstat-no" title="statement not covered" >nextPage(e,3)}</span> variant='text' startIcon={&lt;AddIcon/&gt;}&gt;
+  }} onClick={(e)=&gt;nextPage(e,3)} variant='text' startIcon={&lt;AddIcon/&gt;}&gt;
       &lt;Typography variant='body1'&gt;
           Add to library
           &lt;/Typography&gt;
@@ -544,7 +544,7 @@ const MyCard=(props:Props)=&gt; {
       backgroundColor: 'primary.main', 
       color: '#FFFFFF',
     },
-  }}  onClick={<span class="fstat-no" title="function not covered" >(e</span>)=&gt;<span class="cstat-no" title="statement not covered" >toFinish(e,props.name)}</span> variant='text'&gt;
+  }}  onClick={(e)=&gt;toFinish(e,props.name)} variant='text'&gt;
       &lt;Typography variant='body1'&gt;
           {props.button}
           &lt;/Typography&gt;
@@ -558,7 +558,7 @@ const MyCard=(props:Props)=&gt; {
       backgroundColor: 'primary.main', 
       color: '#FFFFFF',
     },
-  }} onClick={<span class="fstat-no" title="function not covered" >(e</span>)=&gt;<span class="cstat-no" title="statement not covered" >toRepeat(e,props.id)}</span> variant='text'&gt;
+  }} onClick={(e)=&gt;toRepeat(e,props.id)} variant='text'&gt;
       &lt;Typography variant='body1'&gt;
           {props.button}
           &lt;/Typography&gt;
@@ -580,7 +580,7 @@ export default MyCard;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sun Jan 23 2022 20:16:03 GMT+0530 (India Standard Time)
+                at Sun Jan 23 2022 20:44:41 GMT+0530 (India Standard Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

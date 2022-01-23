@@ -2,6 +2,7 @@ import React from 'react';
 import "@testing-library/jest-dom"
 import MyCard from '../MyCard'
 import {fireEvent, render,screen } from '@testing-library/react';
+import OPENBOOK from '../../../utils/OPENBOOK';
 
 it('render beyond Entrepreneurship card', async()=>{
     render(<MyCard  progressBar='none' button='add'
@@ -20,6 +21,9 @@ it('render beyond Entrepreneurship card', async()=>{
 
     const button=screen.getByRole('button')
     expect(button).toHaveTextContent('Add to library')
+
+    fireEvent.click(button)
+    expect(OPENBOOK.length).toBeGreaterThan(9)
 });
 
 it('render being boss finished card', async()=>{
@@ -40,6 +44,11 @@ it('render being boss finished card', async()=>{
 
     const button=screen.getByRole('button')
     expect(button).toHaveTextContent('Read again')
+
+    fireEvent.click(button)
+    expect(button.textContent).not.toBe('Finished')
+
+    expect(button).toBeInTheDocument()
 });
 
 it('render Dropshipping currently reading card', async()=>{
@@ -60,4 +69,9 @@ it('render Dropshipping currently reading card', async()=>{
 
     const button=screen.getByRole('button')
     expect(button).toHaveTextContent('Finished')
+
+    fireEvent.click(button)
+    expect(button.textContent).not.toBe('Read again')
+
+    expect(button).toBeInTheDocument()
 });

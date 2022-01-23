@@ -1,6 +1,6 @@
 import React from 'react';
 import BookDetail from '../BookDetail'
-import {render,screen } from '@testing-library/react';
+import {fireEvent, render,screen } from '@testing-library/react';
 import "@testing-library/jest-dom"
 
 const mockedFuntion = jest.fn(); 
@@ -15,6 +15,10 @@ it('beyond Entrepreneurship book detail page', async()=>{
 
     const buttons= screen.getAllByRole('button')
     expect(buttons.length).toEqual(3)
+
+    const button=screen.getByRole('button',{name:'Finished Reading'})
+    fireEvent.click(button)
+    expect(button).toBeInTheDocument()
 
     const readNowButton=screen.getByRole('button',{name:"Read now"})
     expect(readNowButton).not.toBeDisabled();

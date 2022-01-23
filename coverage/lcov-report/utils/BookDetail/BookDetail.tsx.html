@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">60% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>6/10</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/4</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">55.55% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/9</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -203,9 +203,9 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -218,7 +218,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -288,10 +288,10 @@ const useStyles = makeStyles((theme) =&gt; ({
 }))
 const BookDetail=(props:Props)=&gt; {
     const classes= useStyles();
-    const submit=<span class="fstat-no" title="function not covered" >(e</span>:React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;, name: string, val:number)=&gt;{
-<span class="cstat-no" title="statement not covered" >            CLOSEDBOOK.push({'id':2,'src':"beyondEntrepreneur.png",'name':"Beyond Entrepreneurship", 'author':"Jim Collins &amp; Bill Lazier", 'duration':"13"})</span>
-<span class="cstat-no" title="statement not covered" >            OPENBOOK.splice(9,2);</span>
-<span class="cstat-no" title="statement not covered" >            props.changeState(val);</span>
+    const submit=(e:React.MouseEvent&lt;HTMLButtonElement, MouseEvent&gt;, name: string, val:number)=&gt;{
+            CLOSEDBOOK.push({'id':2,'src':"beyondEntrepreneur.png",'name':"Beyond Entrepreneurship", 'author':"Jim Collins &amp; Bill Lazier", 'duration':"13"})
+            OPENBOOK.splice(9,2);
+            props.changeState(val);
     }
     return (
         &lt;div style={{marginLeft:'150px', marginTop:'75px'}}&gt;
@@ -304,7 +304,7 @@ const BookDetail=(props:Props)=&gt; {
                     &lt;Typography variant='body1' className={classes.author}&gt;By Jim Collins and Bill Lazier&lt;/Typography&gt;
                     &lt;Typography variant='caption' className={classes.wrapIconLeft}&gt;&lt;AccessTimeIcon /&gt; 15-minute read&lt;/Typography&gt;&lt;br&gt;&lt;/br&gt;
                     &lt;Button variant="outlined" style={{ marginRight:'2%',fontWeight:'400', marginTop:'6%'}} &gt;Read now&lt;/Button&gt;
-                    &lt;Button variant="contained" onClick={<span class="fstat-no" title="function not covered" >(e</span>)=&gt;<span class="cstat-no" title="statement not covered" >submit(e,"Beyond Entrepreneurship",4)}</span> style={{marginRight:'2%',fontWeight:'400', marginTop:'6%'}}&gt;Finished Reading&lt;/Button&gt;
+                    &lt;Button variant="contained" onClick={(e)=&gt;submit(e,"Beyond Entrepreneurship",4)} style={{marginRight:'2%',fontWeight:'400', marginTop:'6%'}}&gt;Finished Reading&lt;/Button&gt;
                     &lt;Button variant="text" style={{ color:'black', fontWeight:'400', marginTop:'6%'}} endIcon={&lt;ArrowForwardIcon /&gt;}&gt;Send to Kindle&lt;/Button&gt;
                     &lt;MyTabs /&gt;
                     &lt;Typography variant='body2' className={classes.content}&gt;Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.&lt;/Typography&gt;
@@ -328,7 +328,7 @@ export default BookDetail;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sun Jan 23 2022 20:16:03 GMT+0530 (India Standard Time)
+                at Sun Jan 23 2022 20:44:41 GMT+0530 (India Standard Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

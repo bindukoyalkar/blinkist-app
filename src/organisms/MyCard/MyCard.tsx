@@ -34,8 +34,9 @@ const useStyles = makeStyles(theme => ({
     btn:{
      width:'100%',
      color:'secondary.main',
-     paddingTop:'10%',
-     paddingBottom:'10%'
+     /* paddingTop:'10%',
+     paddingBottom:'10%' */
+     height:'10%'
     }
   })); 
 interface Props{
@@ -49,7 +50,7 @@ interface Props{
     button?:'add'| 'Finished' | 'Read again',
     progressBar:'none'|'full'| 'half',
     id:number,
-  changeTab?(val:number):any
+    changeTab?(val:number):any
 }
 
 const innerTheme = createTheme({
@@ -76,8 +77,8 @@ const MyCard=(props:Props)=> {
     }
 
     const toRepeat=(e: React.MouseEvent<HTMLButtonElement, MouseEvent>,id:number)=>{
-      const book=CLOSEDBOOK.filter((book: { id: number; }) => book.id=== id)
-      OPENBOOK.push(...book)
+      const books=CLOSEDBOOK.filter((book: { id: number; }) => book.id=== id)
+      OPENBOOK.push(...books)
       const index=CLOSEDBOOK.findIndex((eachBook: { id: number; }) => eachBook.id=== id);
       CLOSEDBOOK.splice(index,1)
       props.changeTab&& props.changeTab(0)

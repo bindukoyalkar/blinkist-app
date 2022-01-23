@@ -13,4 +13,8 @@ it('should be able to type into input', () => {
     fireEvent.click(textField)
     fireEvent.change(textField, { target: { value: "Go Grocery Shopping" } })
     expect(textField.value).toBe("Go Grocery Shopping");
+
+    expect(screen.getAllByRole('heading').length).toEqual(3);
+    
+
 });

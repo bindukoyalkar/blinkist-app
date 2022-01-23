@@ -59,6 +59,8 @@ const featuredData=`{"books":[{"id":1,"src":"1.png","name":"Bring Your Human to 
 const data3=JSON.parse(featuredData);
 const featured= data3.books;
 
+
+
 const SearchBar=(props:Props)=> {
   const [searchTerm,setSearchTerm]= useState('')
   const classes=useStyles();
@@ -76,17 +78,18 @@ const SearchBar=(props:Props)=> {
             }}/>
         </ThemeProvider>
 
-
+       { function condition(val:any){
+  if(searchTerm === "")
+  return val 
+else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
+  return val
+}
+}}
    
 <Container   style={{paddingLeft:"7%",paddingRight:"7%"}}>
 <Typography className={classes.sideHeading} variant='h6'>Trending blinks</Typography>
-     <Grid container rowSpacing={2} >
-    {trending.filter((val:any)=>{
-      if(searchTerm === "")
-        return val 
-      else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
-        return val
-      }}).map((val:any,key:any) => {
+    <Grid container rowSpacing={2} >
+    {trending.filter((val:any)=> condition(val,searchTerm)).map((val:any,key:any) => {
     return ( <Grid item xs={12} sm={6} md={4}>
         { val.name!=='Beyond Entrepreneurship' &&    
     <MyCard progressBar='half' dots={true} id={val.id} key={val.id} src={val.src} name={val.name} author={val.author} duration={val.duration}
@@ -101,12 +104,7 @@ const SearchBar=(props:Props)=> {
 <Container   style={{paddingLeft:"7%",paddingRight:"7%"}}>
 <Typography className={classes.sideHeading} variant='h6'>Just Added</Typography>
 <Grid container rowSpacing={2} >
-{ justAdded.filter((val:any)=>{
-      if(searchTerm === "")
-        return val 
-      else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
-        return val
-      }}).map((book:BookType) =><Grid item xs={12} sm={6} md={4}> <MyCard id={book.id} button='add' progressBar='none'
+{ justAdded.filter((val:any)=> condition(val,searchTerm)).map((book:BookType) =><Grid item xs={12} sm={6} md={4}> <MyCard id={book.id} button='add' progressBar='none'
        src={book.src} name={book.name}
       author={book.author} duration={book.duration} noOfReads={book.noOfReads}/>
        </Grid> )}
@@ -116,12 +114,7 @@ const SearchBar=(props:Props)=> {
     <Container  style={{paddingLeft:"7%",paddingRight:"7%"}}>
     <Typography className={classes.sideHeading} variant='h6'>Featured Audio Links</Typography>
   <Grid container rowSpacing={2} >
-  { featured.filter((val:any)=>{
-      if(searchTerm === "")
-        return val 
-      else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
-        return val
-      }}).map((book:BookType) =><Grid item xs={12} sm={6} md={4}> <MyCard id={book.id} button='add' progressBar='none'
+  { featured.filter((val:any)=> condition(val,searchTerm)).map((book:BookType) =><Grid item xs={12} sm={6} md={4}> <MyCard id={book.id} button='add' progressBar='none'
     src={book.src} name={book.name}
   author={book.author} duration={book.duration} noOfReads={book.noOfReads}/>
     </Grid> )}
@@ -132,3 +125,11 @@ const SearchBar=(props:Props)=> {
 }
 
 export default SearchBar;
+
+function condition(val:any,searchTerm:string){
+  if(searchTerm === "")
+  return val 
+else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
+  return val
+}
+}

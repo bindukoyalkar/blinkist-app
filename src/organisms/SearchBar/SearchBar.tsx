@@ -119,10 +119,7 @@ const SearchBar=(props:Props)=> {
 export default SearchBar;
 
 function condition(val:any,searchTerm:string){
-  if(searchTerm === ""){
-  return val 
-  }
-  else if (val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
+  if (searchTerm === "" || val.name.toLowerCase().includes(searchTerm.toLowerCase()) || val.author.toLowerCase().includes(searchTerm.toLowerCase())){
   return val
   }
 }
